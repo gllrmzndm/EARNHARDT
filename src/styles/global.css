@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .navigation {
+    @apply float-left text-red-600;
+  } */
