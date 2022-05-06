@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Cadillac`,
     siteUrl: `https://www.yourdomain.tld`,
+    pathPrefix: "/EARNHARDT",
   },
   plugins: [
     'gatsby-plugin-postcss',
