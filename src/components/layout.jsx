@@ -26,10 +26,14 @@ const Layout = ({ pageTitle, children }) => {
             </nav>
 
             {/* Main */}
-            <main className="-top-0">
-                {/* <h1>{pageTitle}</h1> */}
-                {children}
+            <main className="">
+                <article className="">
+                    {children}
+                </article>
             </main>
+            <footer className="">
+
+            </footer>
         </div>
     )
 }
