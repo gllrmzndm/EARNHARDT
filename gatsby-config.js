@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Cadillac`,
-    siteUrl: `https://www.yourdomain.tld`,
-    pathPrefix: "/EARNHARDT",
+    title: `EARNHARDT`,
+    siteUrl: `http://www.guillermojebentlekkeryeahiknowimhot.be`,
+    pathPrefix: "https://thisisguillermo.github.io/EARNHARDT/",
   },
   plugins: [
     'gatsby-plugin-postcss',

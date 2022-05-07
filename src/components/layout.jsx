@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import Hamburger from './hamburger.png'
+import Hamburger from './hamburger_64_w_2.svg'
 import CadillacLogo from './cadillac_logo_w.svg'
 
 
@@ -9,6 +9,8 @@ const Layout = ({ pageTitle, children }) => {
     return (
         <div>
             <title>{pageTitle}</title>
+
+            {/* Navigation */}
             <nav className='top-0 z-10 bg-opacity-50 fixed w-full'>
                 <ul className="hidden sm:flex items-center lg:text-sm justify-between mx-14">
                     {/* <li className='text-center py-2 px-4 text-white hover:bg-zinc-600'><Link to="/"><img src={CadillacLogo} width="30px" /></Link></li> */}
@@ -22,6 +24,8 @@ const Layout = ({ pageTitle, children }) => {
                     <li className='text-center py-2 px-4'> <img src={CadillacLogo} width="30px" /> </li>
                 </ul>
             </nav>
+
+            {/* Main */}
             <main className="-top-0">
                 {/* <h1>{pageTitle}</h1> */}
                 {children}
