@@ -8,7 +8,7 @@ import CadillacLogo from '../assets/cadillac_logo_w.svg'
 const Layout = ({ pageTitle, children }) => {
 
     const data = useStaticQuery(graphql`
-      query MyQueryandMyQuery {
+      query MyQuery {
     site {
       id
       siteMetadata {
@@ -21,7 +21,7 @@ const Layout = ({ pageTitle, children }) => {
         <div>
             <title>{pageTitle} | {data.site.siteMetadata.title}</title>
             <header></header>
-            <nav className='top-0 z-10 bg-opacity-50 fixed w-full font-Cadillac_Sans_A font-light'>
+            <nav className='top-0 z-10 bg-black fixed w-full'>
                 <ul className="hidden sm:flex items-center lg:text-sm justify-between mx-14">
                     {/* <li className='text-center py-2 px-4 text-white hover:bg-zinc-600'><Link to="/"><img src={CadillacLogo} width="30px" /></Link></li> */}
                     <li className='text-center py-4 px-4 text-white hover:bg-zinc-600'><Link to="/">Vehicles</Link></li>
@@ -34,8 +34,8 @@ const Layout = ({ pageTitle, children }) => {
                     <li className='text-center py-2 px-4'> <img src={CadillacLogo} width="30px" /> </li>
                 </ul>
             </nav>
-            <main className="text-white bg-stone-400 font-Cadillac_Sans_A font-light">
-                <article className="border-solid border-lime-400 border-8">
+            <main className="">
+                <article className="">
                     {children}
                 </article>
             </main>

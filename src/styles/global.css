@@ -5,3 +5,82 @@
 /* .navigation {
     @apply float-left text-red-600;
   } */
+
+@layer base {
+  @font-face {
+    font-family: 'Cadillac Sans A';
+    src: url('../fonts/CadillacSansA-SemiBold.eot');
+    src: local('Cadillac Sans A SemiBold'), local('CadillacSansA-SemiBold'),
+      url('../fonts/CadillacSansA-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CadillacSansA-SemiBold.woff') format('woff'),
+      url('../fonts/CadillacSansA-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cadillac Sans A';
+    src: url('../fonts/CadillacSansA-Light.eot');
+    src: local('Cadillac Sans A Light'), local('CadillacSansA-Light'),
+      url('../fonts/CadillacSansA-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CadillacSansA-Light.woff') format('woff'),
+      url('../fonts/CadillacSansA-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cadillac Sans A';
+    src: url('../fonts/CadillacSansA-ExtraBold.eot');
+    src: local('Cadillac Sans A ExtraBold'), local('CadillacSansA-ExtraBold'),
+      url('../fonts/CadillacSansA-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CadillacSansA-ExtraBold.woff') format('woff'),
+      url('../fonts/CadillacSansA-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cadillac Sans A';
+    src: url('../fonts/CadillacSansA-Thin.eot');
+    src: local('Cadillac Sans A Thin'), local('CadillacSansA-Thin'),
+      url('../fonts/CadillacSansA-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CadillacSansA-Thin.woff') format('woff'),
+      url('../fonts/CadillacSansA-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cadillac Sans A';
+    src: url('../fonts/CadillacSansA-Bold.eot');
+    src: local('Cadillac Sans A Bold'), local('CadillacSansA-Bold'),
+      url('../fonts/CadillacSansA-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CadillacSansA-Bold.woff') format('woff'),
+      url('../fonts/CadillacSansA-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cadillac Sans A Book';
+    src: url('../fonts/CadillacSansA-Book.eot');
+    src: local('Cadillac Sans A Book'), local('CadillacSansA-Book'),
+      url('../fonts/CadillacSansA-Book.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CadillacSansA-Book.woff') format('woff'),
+      url('../fonts/CadillacSansA-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cadillac Sans A';
+    src: url('../fonts/CadillacSansA-Medium.eot');
+    src: local('Cadillac Sans A Medium'), local('CadillacSansA-Medium'),
+      url('../fonts/CadillacSansA-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CadillacSansA-Medium.woff') format('woff'),
+      url('../fonts/CadillacSansA-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+}
