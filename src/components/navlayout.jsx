@@ -21,7 +21,7 @@ const NavLayout = ({ pageTitle }) => {
         <div>
             <title>{pageTitle} | {data.site.siteMetadata.title}</title>
             <header></header>
-            <nav className='top-0 z-10 bg-opacity-50 bg-black fixed w-full font-Cadillac_Sans_A font-light'>
+            <nav className='top-0 z-10 bg-opacity-80 bg-black fixed w-full font-Cadillac_Sans_A font-light'>
                 <ul className="hidden sm:flex items-center lg:text-sm justify-between mx-14">
                     {/* <li className='text-center py-2 px-4 text-white hover:bg-zinc-600'><Link to="/"><img src={CadillacLogo} width="30px" /></Link></li> */}
                     <li className='text-center py-4 px-4 text-white hover:bg-zinc-600 '><Link to="/">Vehicles</Link></li>
