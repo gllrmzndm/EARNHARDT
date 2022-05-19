@@ -48,7 +48,7 @@ const MainL = () => {
           </div>
         </section>
         <section>
-        <StaticImage src="../images/interior.jpg" alt="uhhu" className=""/>
+        <StaticImage src="../images/interior.jpg  " alt="uhhu" className=""/>
         </section>
       </MainLayout>
     </div>
