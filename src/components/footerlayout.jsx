@@ -11,7 +11,7 @@ const FooterLayout = ({}) => {
                 <li><a href="https://www.cadillac.com/how-to">Tutorials</a></li>
             </ul>
             <ul className="mx-14">
-                <li><a href="https://www.cadillac.com/ownercenter/recalls">Recall</a></li>
+                <li><a href="https://www.cadillac.com/ownercenter/recalls">Recalls</a></li>
             </ul>
         </footer>
     )
