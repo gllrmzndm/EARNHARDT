@@ -38,7 +38,7 @@ const MainL = () => {
 
     {/* Cadillac with orange background */}
         <section className="relative">
-          <StaticImage src="../images/UHD_2023-LYRIQ_banner_orange.jpg" alt="Image about the new Cadillac Lyriq with an orange background" />
+          <StaticImage src="../images/UHD_2023-LYRIQ_banner_orange.webp" alt="Image about the new Cadillac Lyriq with an orange background" />
           <p className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 font-Cadillac_Sans_A font-light text-lg text-white lg:text-2xl">RADIANCE THAT MOVES YOU FORWARD</p>
           <div className="absolute inset-0 flex items-center justify-center">
             <p className="mt-40 text-xs sm:mt-80 text-xl font-Cadillac_Sans_A font-light text-white tracking-widest lg:text-xl">A HIGHER STANDARD OF INTEGRATION</p>
@@ -59,8 +59,8 @@ const MainL = () => {
 
         {/* Interior of the Cadillac */}
         <section className="relative">
-          <StaticImage src="../images/interior.jpg" alt="Image about the new Cadillac Lyriq interior" />
-          <p className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 font-Cadillac_Sans_A font-light text-base text-white lg:text-3xl"> INTERIOR
+          <StaticImage src="../images/interior.webp" alt="Image about the new Cadillac Lyriq interior"/>
+          <p className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 font-Cadillac_Sans_A font-light text-base text-white lg:text-3xl "> INTERIOR
 ENERGIZE YOUR SENSES</p>
         </section>
       </MainLayout>
