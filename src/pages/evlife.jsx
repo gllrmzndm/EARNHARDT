@@ -40,6 +40,7 @@ const IndexPage = () => {
             </div>
           </section>
 
+
       {/* Charging details */}
           <section className="relative bg-black text-white justify-center sm:flex">
             <div className="relative sm:mb-16">
@@ -54,7 +55,7 @@ const IndexPage = () => {
 
           {/* Interior of the Cadillac */}
           <section className="relative">
-            <StaticImage src="../images/interior.jpg" alt="Image about the new Cadillac Lyriq interior" />
+            <StaticImage src="../images/interior.webp" alt="Image about the new Cadillac Lyriq interior" />
             <p className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-60 font-Cadillac_Sans_A font-light text-base text-white lg:text-3xl"> INTERIOR
   ENERGIZE YOUR SENSES</p>
           </section>
