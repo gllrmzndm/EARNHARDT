@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
 import Intro from '../assets/EVLIFE.webm'
-import CadillacLogo2 from '../assets/c_logo.svg'
+import CadillacLogo2 from '../assets/c_logo_w.svg'
 import NavLayout from '../components/navlayout'
 import FooterLayout from '../components/footerlayout'
 import MainLayout from '../components/mainlayout'
@@ -33,7 +33,7 @@ const MainL = () => {
         <section className="lg:grid grid-cols-2">
           <section className="relative">
             <StaticImage src="../images/red_dress_ev_life.webp" alt="Image about the new Cadillac Lyriq with an orange background" width={1000} />
-            <p className="absolute text-white tracking-widest text-xl  inset-0 flex items-center justify-center">BE ORIGINAL</p>
+            <p className="absolute text-white tracking-widest text-xl inset-0 flex items-center justify-center">BE ORIGINAL</p>
           </section>
 
           <section className="relative">
@@ -45,8 +45,10 @@ const MainL = () => {
 
           <section className="relative">
             <StaticImage src="../images/blue_gradient.webp" alt="Image about the new Cadillac Lyriq with an orange background" width={975} />
-            <img className="absolute text-white inset-0 flex items-center justify-center my-40 lg:my-96 text-4xl" src={CadillacLogo2} />
-            <p className="absolute text-white inset-0 mt-72 text-sm flex items-center justify-center lg: text-base">POWER FOR THE BOLD</p>
+            <div className="absolute text-white inset-0 flex items-center justify-center my-40 scale-50 lg:my-96 text-4xl scale-75">
+            <img src={CadillacLogo2} width="550px" />
+            </div>
+            <p className="absolute text-white text-2xl tracking-widest inset-0 mt-72 text-sm flex items-center justify-center lg:text-base">BE ICONIC</p>
           </section>
 
           <section>
