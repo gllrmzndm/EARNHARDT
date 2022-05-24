@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from 'gatsby'
 
 const FooterLayout = ({}) => {
     return (
-        <footer className="text-white bg-black bg-opacity-80 fixed inset-x-0 bottom-0 flex justify-between items-center font-Cadillac_Sans_A font-light text-base sm:text-sm">
+        <footer className="text-white bg-gradient-to-b from-bg-neutral-600 to- bg-opacity-20 bg-black fixed inset-x-0 bottom-0 flex justify-between items-center font-Cadillac_Sans_A font-light text-base sm:text-sm">
             <ul className="mx-11 my-4">
                 <li><a href="https://www.cadillac.com/contact-us">CONTACT</a></li>
             </ul>
