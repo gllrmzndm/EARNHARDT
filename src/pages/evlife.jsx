@@ -9,7 +9,7 @@ import MainLayout from '../components/mainlayout'
 const IndexPage = () => {
   return (
     <div>
-      <NavLayout pageTitle="Cadillac">
+      <NavLayout pageTitle="EV LIFE">
       </NavLayout>
     </div>
   )
