@@ -1,3 +1,13 @@
+# EARNHARDT Cadillac
+
+This project is made entirely by me (Guillermo Zaandam)
+Designs are made in Figma
+
+With this project I'm learning the technologies displayed below.
+Things that aren't displayed are, compressing the stills (e.g. images) and motion images (video) to load the website faster. The containers are webp and webm.
+
+Intro video is edited to make it shorter and more appealing, the second video (EV LIFE) has been made sharper and slow motion is added to last part of the video. Videos are being edited with DaVinci Resolve
+
 [![localhost-8000-2.png](https://i.postimg.cc/jSyd8fkj/localhost-8000-2.png)](https://postimg.cc/mP2skP4x)
 
 <div style="text-align:center">
@@ -11,3 +21,8 @@
 ![image](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![image](https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white)
 ![image](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+
+
+
+
+**All trademarks are property of their respective owners**

@@ -48,7 +48,7 @@ const MainL = () => {
             <div className="absolute text-white inset-0 flex items-center justify-center my-40 scale-50 lg:my-96 text-4xl scale-75">
             <img src={CadillacLogo2} width="550px"/>
             </div>
-            <p className="absolute text-white text-2xl tracking-widest inset-0 mt-72 text-sm flex items-center justify-center lg:text-2xl">BE ICONIC</p>
+            <p className="absolute text-white text-2xl tracking-widest inset-0 mt-72 text-sm flex items-center justify-center lg:text-2readxl">BE ICONIC</p>
           </section>
 
           <section>
