@@ -1,7 +1,7 @@
 # EARNHARDT Cadillac
 
 This project is made entirely by me (Guillermo Zaandam)
-Designs are made in Figma
+Designs are made in Figma.
 
 With this project I'm learning the technologies displayed below.
 Things that aren't displayed are, compressing the stills (e.g. images) and motion images (video) to load the website faster. The containers are webp and webm.
