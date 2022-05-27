@@ -1,9 +1,9 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player/youtube'
 
 import NavLayout from '../components/navlayout'
-import FooterLayout from '../components/footerlayout'
+// import FooterLayout from '../components/footerlayout'
 
 
 const MainL = ({ data }) => {
