@@ -14,7 +14,8 @@ module.exports = {
       options: {
         name: `EARNHARDT`,
         path: `${__dirname}/blog`,
-      }
-    }
+      },
+    },
+    "gatsby-plugin-mdx",
   ],
 }
