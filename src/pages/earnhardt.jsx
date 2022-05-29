@@ -34,10 +34,10 @@ const MainL = ({ data }) => {
                   {/* Frontmatter excerpt */}
                   <p>{node.excerpt}</p>
 
-                  This render the full body, which isn't needed on the page.
+                  {/* This render the full body, which isn't needed on the page. */}
                   {/* <MDXRenderer>
                   {node.body}
-                </MDXRenderer> */}'
+                </MDXRenderer> */}
                 </div>
               </article>
             ))
