@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player/youtube'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 import NavLayout from '../components/navlayout'
-// import FooterLayout from '../components/footerlayout'
+import FooterLayout from '../components/footerlayout'
 
 
 const MainL = ({ data }) => {
@@ -44,7 +44,9 @@ const MainL = ({ data }) => {
           }
         </ul>
       </div>
-
+      <div>
+        <FooterLayout></FooterLayout>
+      </div>
     </body>
   )
 }
