@@ -30,20 +30,20 @@ const MainL = () => {
         </section>
 
         {/* Women with red dress on the left and red gradient on*/}
-        <section className="lg:grid grid-cols-2">
+        <section className="lg:grid grid-cols-2 font-Cadillac_Sans_A font-light">
           <section className="relative">
             <StaticImage src="../images/red_dress_ev_life.webp" alt="Image about the new Cadillac Lyriq with an orange background" width={1000} />
             <p className="absolute text-white tracking-widest text-xl inset-0 flex items-center justify-center">BE ORIGINAL</p>
           </section>
 
-          <section className="relative">
+          <section className="relative font-Cadillac_Sans_A font-light">
             <StaticImage src="../images/red_dress_gradient.webp" alt="Image about the new Cadillac Lyriq with an orange background" width={1000} className="relative  " />
             <p className="absolute text-white inset-0 flex items-center justify-center my-40 lg:my-96 text-4xl">Boldness becomes you</p>
             <p className="absolute text-white inset-0 mt-72 text-sm flex items-center justify-center lg: text-base">POWER FOR THE BOLD</p>
           </section>
           {/* absolute z-10 text-white inset-0 flex items-center justify-center text-3xl border-solid border-white border-2 my-96 */}
 
-          <section className="relative">
+          <section className="relative font-Cadillac_Sans_A font-light">
             <StaticImage src="../images/blue_gradient.webp" alt="Image about the new Cadillac Lyriq with an orange background" width={975} />
             <div className="absolute text-white inset-0 flex items-center justify-center my-40 scale-50 lg:my-96 text-4xl scale-75">
             <img src={CadillacLogo2} width="550px"/>

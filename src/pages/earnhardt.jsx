@@ -9,7 +9,7 @@ import FooterLayout from '../components/footerlayout'
 
 const MainL = ({ data }) => {
   return (
-    <body className="flex flex-col box-border overflow-x-hidden  bg-cadillac-blue">
+    <body className="flex flex-col box-border overflow-x-hidden  bg-white">
 
       <div>
         <NavLayout></NavLayout>
@@ -22,11 +22,11 @@ const MainL = ({ data }) => {
       </div>
 
       <div className="">
-        <ul className="text-center bg-cadillac-blue text-white">
+        <ul className="text-center bg-white text-black font-Cadillac_Sans_A font-light  ">
           {
             data.allMdx.nodes.map((node) => (
               <article className="border-2 border-gray-300 text-left my-10" key={node.id}>
-                <div className="my-10">
+                <div className="my-10 ">
                   {/* Frontmatter title */}
                   <h2 className="font-Cadillac_Sans_A font-bold underline">{node.frontmatter.title}</h2>
                   {/* Frontmatter date */}
