@@ -26,7 +26,7 @@ const MainL = ({ data }) => {
         <ul className="text-center bg-white text-black font-Cadillac_Sans_A font-light  ">
           {
             data.allMdx.nodes.map((node) => (
-              <article className="border-2 border-gray-900 text-left my-10" key={node.id}>
+              <article className="text-left my-10" key={node.id}>
                 <div className="my-10 ">
 
 
