@@ -19,7 +19,7 @@ Website: https://guillermojebentlekkeryeahiknowimhot.be/
 
 <div style="text-align:center">
 
-<img src="https://i.postimg.cc/rsjJwCVN/localhost-8000-i-Phone-12-Pro-2.png">
+<img  align="center" src="https://i.postimg.cc/rsjJwCVN/localhost-8000-i-Phone-12-Pro-2.png">
 </div>
 
 
