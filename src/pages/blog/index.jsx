@@ -19,7 +19,7 @@ const MainL = ({ data }) => {
       {/* Video player */}
       <div className="player-wrapper pointer-events-none w-full aspect-video">
         <ReactPlayer className='object-cover' playing='true' muted='true' loop='true' playsinline='true' width="100%"
-          height="100%" frameborder="0" url='https://youtu.be/RVB08vZ5br8' />
+          height="100%" frameborder="0" url='https://youtu.be/ZIeyFSuuR6g' />
       </div>
 
       <div className="">
