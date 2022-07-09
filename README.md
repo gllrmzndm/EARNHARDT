@@ -14,7 +14,7 @@ The website is hosted on Gatsby Cloud and Cloudflare is used for better performa
 
 ---
 
-[![localhost-8000-2.png](https://i.postimg.cc/jSyd8fkj/localhost-8000-2.png)](https://guillermojebentlekkeryeahiknowimhot.be/)
+[![localhost-8000-2.png](https://i.postimg.cc/jSyd8fkj/localhost-8000-2.png)](guillermoearnhardt.nl)
 
 <div style="text-align:center">
 
