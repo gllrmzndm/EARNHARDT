@@ -11,7 +11,6 @@ Intro video is edited to make it shorter and more appealing, the second video (E
 
 The website is hosted on Gatsby Cloud and Cloudflare is used for better performance, firewall and more.
 
-Website: https://guillermojebentlekkeryeahiknowimhot.be/
 
 ---
 
