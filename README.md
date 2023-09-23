@@ -32,6 +32,9 @@ The website is hosted on Gatsby Cloud and Cloudflare is used for better performa
 ![image](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
 
+View project: https://youtu.be/oTp7ssoeAi0
+
+
 ---
 
 **All trademarks are property of their respective owners**
