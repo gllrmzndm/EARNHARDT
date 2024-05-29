@@ -5,11 +5,6 @@ module.exports = {
     pathPrefix: "https://thisisguillermo.github.io/EARNHARDT/",
   },
   plugins: [
-    'gatsby-plugin-postcss',
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`, // Needed for dynamic images
-    `gatsby-plugin-netlify`
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -17,6 +12,11 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    "gatsby-plugin-postcss",
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
+    `gatsby-plugin-netlify`,
     "gatsby-plugin-mdx",
   ],
-}
+};
