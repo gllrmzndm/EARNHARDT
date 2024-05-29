@@ -13,10 +13,10 @@ module.exports = {
       },
     },
     "gatsby-plugin-postcss",
-    `gatsby-plugin-image`,
+    // `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
-    `gatsby-plugin-netlify`,
+    // `gatsby-plugin-netlify`,
     "gatsby-plugin-mdx",
   ],
 };
